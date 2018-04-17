@@ -20,9 +20,3 @@ class Room():
     def printer(self):
         print('The area of the wall is equal: {0} m2'.format(self.square))
         print('The area of the wallpapers: {0} m2'.format(str(self.wallpapers)))
-
-room = Room(5, 4, 2)
-room.win_door(1.5, 1.5, 2,1, 2)
-room.wallpapers()
-room.printer()
-
