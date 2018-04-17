@@ -20,3 +20,5 @@ class Room():
     def printer(self):
         print('The area of the wall is equal: {0} m2'.format(self.square))
         print('The area of the wallpapers: {0} m2'.format(str(self.wallpapers)))
+        print('The are of the one window: {0} m2'.format(self.window.square))
+        print('The area of the one door: {0} m2'.format(self.door.square))
